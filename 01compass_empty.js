@@ -9,22 +9,22 @@ oriented = function(e) {
         }
 
         if(compassHeading > 315 || compassHeading < 45) {
-                text_area.textContent = "Black Turtle 玄武";
+                text_area.textContent = "李慎之";
 
         }
 
         if(compassHeading > 45 && compassHeading < 135) {
-                text_area.textContent = "Azure Dragon 青龙";
+                text_area.textContent = "高冷";
 
         }
          
          if(compassHeading > 135 && compassHeading < 225) {
-                text_area.textContent = "Vermilion Bird 朱雀";
+                text_area.textContent = "学霸";
 
         }
 
         if(compassHeading > 225 && compassHeading < 315) {
-                text_area.textContent = "White Tiger 白虎";
+                text_area.textContent = "小美女";
 
         }
         //calls function to alter content based on heading
